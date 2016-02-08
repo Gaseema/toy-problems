@@ -1,0 +1,9 @@
+
+public class largest {
+	public static void main(String[] args){
+		test Large = new test();
+		System.out.println(Large.largestNumOfThree(98, 50, 23));
+		System.out.println(Large.largestNumOfThree(100, -1, 21));
+		System.out.println(Large.largestNumOfThree(3.44, 2, 10));
+	}
+}

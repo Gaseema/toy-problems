@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="657" width="1006" x="354" y="113">
+<window height="743" maximized="true" width="677" x="628" y="114">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,7 +15,7 @@
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="288" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -32,6 +32,9 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -44,9 +47,21 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/month/src/month.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="978" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="reversestring.java" partName="reversestring.java" path="/home/gaseema/workspace/reversestring/src/reversestring.java" title="reversestring.java" tooltip="reversestring/src/reversestring.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="reversestring.java" partName="reversestring.java" path="/home/gaseema/workspace/reversestring/src/reversestring.java" title="reversestring.java" tooltip="reversestring/src/reversestring.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/reversestring/src/reversestring.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="combineString.java" partName="combineString.java" path="/home/gaseema/workspace/reversestring/src/combineString.java" title="combineString.java" tooltip="reversestring/src/combineString.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/reversestring/src/combineString.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="257" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="maxNum.java" partName="maxNum.java" path="/home/gaseema/workspace/maxNum/src/maxNum.java" title="maxNum.java" tooltip="maxNum/src/maxNum.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/maxNum/src/maxNum.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="45" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="max.java" partName="max.java" path="/home/gaseema/workspace/maxNum/src/max.java" title="max.java" tooltip="maxNum/src/max.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/maxNum/src/max.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="173" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -56,7 +71,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (6 items)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Errors (23 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="310" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -261,7 +277,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.3169643" ratioLeft="213" ratioRight="459" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -279,7 +295,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.6787879" ratioLeft="224" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -300,6 +316,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/month/src/month.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/month/src/reverseclass.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/reversestring/src/reversestring.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/reversestring/src/combineString.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/maxNum/src/maxNum.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/maxNum/src/max.java"/>
 </editors>
 <item historyLabel="month.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -319,8 +338,26 @@
 <item historyLabel="month.java" index="1">
 <position info="not_deleted" x="978" y="0"/>
 </item>
-<item active="true" historyLabel="reversestring.java" index="3">
+<item historyLabel="reversestring.java" index="3">
 <position info="not_deleted" x="306" y="0"/>
+</item>
+<item historyLabel="combineString.java" index="4">
+<position info="not_deleted" x="274" y="0"/>
+</item>
+<item historyLabel="combineString.java" index="4">
+<position info="not_deleted" x="55" y="0"/>
+</item>
+<item historyLabel="combineString.java" index="4">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="combineString.java" index="4">
+<position info="not_deleted" x="274" y="0"/>
+</item>
+<item historyLabel="maxNum.java" index="5">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item active="true" historyLabel="max.java" index="6">
+<position info="not_deleted" x="322" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -339,6 +376,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="max.java" tooltip="maxNum/src/max.java">
+<persistable path="/maxNum/src/max.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="maxNum.java" tooltip="maxNum/src/maxNum.java">
+<persistable path="/maxNum/src/maxNum.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="combineString.java" tooltip="reversestring/src/combineString.java">
+<persistable path="/reversestring/src/combineString.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="reversestring.java" tooltip="reversestring/src/reversestring.java">
 <persistable path="/reversestring/src/reversestring.java"/>
 </file>

@@ -1,7 +1,7 @@
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     String numberInput;
-    System.out.println("987: "); 
+    System.out.println("15: "); 
     numberInput = scan.next(); 
 
     int phraseLength = numberInput.length();

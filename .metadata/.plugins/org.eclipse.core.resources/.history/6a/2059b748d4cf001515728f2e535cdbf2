@@ -1,0 +1,12 @@
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String numberInput; // The variable of the string
+    System.out.println("987: "); // prompt user
+    numberInput = scan.next(); // read in the string
+
+    int phraseLength = numberInput.length(); // get length of input string
+    int middleIndex = phraseLength / 2; // find the middle index of input string
+
+    String highestDigits, lowestDigits; //?? just guessing here
+    int max, min; //?? made variables for highest value integer and lowest value integer
+}
